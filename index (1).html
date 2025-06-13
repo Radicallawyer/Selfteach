@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selfteach</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Selfteach</div>
+    <nav>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Teach Yourself.<br>At Your Own Pace.</h1>
+    <p>Selfteach empowers you to learn anything, anytime — from law to life skills, right from your device.</p>
+    <a href="#" class="cta-button">Explore Blog</a>
+    <img src="https://undraw.co/api/illustrations/flat/education" alt="Learning Illustration" />
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Selfteach. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
